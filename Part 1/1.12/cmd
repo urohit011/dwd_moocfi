@@ -1,0 +1,5 @@
+COMMAND TO RUN BACKEND:
+    docker run --rm -p 8000:8000 backend_example
+
+COMMAND TO RUN FRONTEND:
+    docker run --rm -p 5000:5000 frontend_example

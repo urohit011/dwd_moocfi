@@ -1,0 +1,27 @@
+Script started on 2020-08-05 15:59:19+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="173" LINES="39"]
+]0;fish /home/urohit011/docker_moocfi/Part 1/1.1[30m(B[m[2m⏎(B[m                                                                                                                                                                            ⏎ [KWelcome to fish, the friendly interactive shell
+Type `help` for instructions on how to use fish
+[?2004h]7;file://urohit011/home/urohit011/docker_moocfi/Part%201/1.1]0;fish /home/urohit011/docker_moocfi/Part 1/1.1[30m(B[m
+[1m[36mdocker_moocfi/Part 1/1.1(B[m[1m (B[m
+[1m(B[m[1m[32m➜(B[m[1m (B[m(B[m[Kd[38;2;255;0;0md[30m(B[m[38;2;85;85;85mocker container prune[21D[30m(B[m[38;2;255;0;0mo[38;2;85;85;85mcker container prune[20D[30m(B[m[38;2;255;0;0mc[38;2;85;85;85mker container prune[19D[30m(B[m[38;2;255;0;0mk[38;2;85;85;85mer container prune[18D[30m(B[m[38;2;255;0;0me[38;2;85;85;85mr container prune[17D[30m(B[m[38;2;255;0;0mr[38;2;85;85;85m container prune[16D[30m(B[m[38;2;0;95;215mdocker[38;2;85;85;85m container prune[16D[30m(B[m[38;2;0;95;215m [38;2;85;85;85mcontainer prune[15D[30m(B[m [38;2;85;85;85mcontainer prune[15D[30m(B[mr[K[38;2;0;175;255mr[30m(B[m[38;2;85;85;85mun -d nginx[11D[30m(B[m[38;2;0;175;255mu[38;2;85;85;85mn -d nginx[10D[30m(B[m[38;2;0;175;255mn[38;2;85;85;85m -d nginx[9D[30m(B[m[38;2;0;175;255m -d nginx[30m(B[m[9D [38;2;0;175;255m-d[30m(B[m [38;2;0;175;255mnginx[30m(B[m
+[30m(B[m[?2004l]0;docker /home/urohit011/docker_moocfi/Part 1/1.1[30m(B[m8771334adc1c5be23208be277a777addbd741da50c207286a442de2afc9a5c52
+[2m⏎(B[m                                                                                                                                                                            ⏎ [K[?2004h]0;fish /home/urohit011/docker_moocfi/Part 1/1.1[30m(B[m
+[1m[36mdocker_moocfi/Part 1/1.1(B[m[1m (B[m
+[1m(B[m[1m[32m➜(B[m[1m (B[m(B[m[Kdocker run -d nginx[19D[38;2;0;95;215mdocker[30m(B[m [38;2;0;175;255mrun[30m(B[m [38;2;0;175;255m-d[30m(B[m [38;2;0;175;255mnginx[30m(B[m
+[30m(B[m[?2004l]0;docker /home/urohit011/docker_moocfi/Part 1/1.1[30m(B[m5320e2c25564ba5097ccfe075bf1e35b49a7716f549f9eedcbb83c54f895dbfa
+[2m⏎(B[m                                                                                                                                                                            ⏎ [K[?2004h]0;fish /home/urohit011/docker_moocfi/Part 1/1.1[30m(B[m
+[1m[36mdocker_moocfi/Part 1/1.1(B[m[1m (B[m
+[1m(B[m[1m[32m➜(B[m[1m (B[m(B[m[Kdocker run -d nginx[19D[38;2;0;95;215mdocker[30m(B[m [38;2;0;175;255mrun[30m(B[m [38;2;0;175;255m-d[30m(B[m [38;2;0;175;255mnginx[30m(B[m
+[30m(B[m[?2004l]0;docker /home/urohit011/docker_moocfi/Part 1/1.1[30m(B[m26eb47b8a99ec6d92a50fc3840bdc200be85777fd5bc9225a97c608c6c126889
+[2m⏎(B[m                                                                                                                                                                            ⏎ [K[?2004h]0;fish /home/urohit011/docker_moocfi/Part 1/1.1[30m(B[m
+[1m[36mdocker_moocfi/Part 1/1.1(B[m[1m (B[m
+[1m(B[m[1m[32m➜(B[m[1m (B[m(B[m[Kd[38;2;255;0;0md[30m(B[m[38;2;85;85;85mocker run -d nginx[18D[30m(B[m[38;2;255;0;0mo[38;2;85;85;85mcker run -d nginx[17D[30m(B[m[38;2;255;0;0mc[38;2;85;85;85mker run -d nginx[16D[30m(B[m[38;2;255;0;0mk[38;2;85;85;85mer run -d nginx[15D[30m(B[m[38;2;255;0;0me[38;2;85;85;85mr run -d nginx[14D[30m(B[m[38;2;255;0;0mr[38;2;85;85;85m run -d nginx[13D[30m(B[m[38;2;0;95;215mdocker[38;2;85;85;85m run -d nginx[13D[30m(B[m[38;2;0;95;215m [38;2;85;85;85mrun -d nginx[12D[30m(B[m [38;2;85;85;85mrun -d nginx[12D[30m(B[mp[K[38;2;85;85;85ms -a[30m(B[m[38;2;0;175;255mp[38;2;85;85;85ms -a[30m(B[m[38;2;0;175;255ms[38;2;85;85;85m -a[30m(B[m[38;2;0;175;255m -a[30m(B[m [38;2;0;175;255m-a[30m(B[m
+[30m(B[m[?2004l]0;docker /home/urohit011/docker_moocfi/Part 1/1.1[30m(B[mCONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS               NAMES
+26eb47b8a99e        nginx               "/docker-entrypoint.…"   6 seconds ago       Up 4 seconds        80/tcp              adoring_rosalind
+5320e2c25564        nginx               "/docker-entrypoint.…"   10 seconds ago      Up 7 seconds        80/tcp              romantic_pasteur
+8771334adc1c        nginx               "/docker-entrypoint.…"   14 seconds ago      Up 12 seconds       80/tcp              musing_lewin
+[2m⏎(B[m                                                                                                                                                                            ⏎ [K[?2004h]0;fish /home/urohit011/docker_moocfi/Part 1/1.1[30m(B[m
+[1m[36mdocker_moocfi/Part 1/1.1(B[m[1m (B[m
+[1m(B[m[1m[32m➜(B[m[1m (B[m(B[m[K
+[30m(B[m[30m(B[m[?2004l
+Script done on 2020-08-05 15:59:41+05:30 [COMMAND_EXIT_CODE="0"]
