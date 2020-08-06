@@ -1,0 +1,48 @@
+version: '3.5'
+
+services:
+  frontend:
+    image: frontend_example
+    ports:
+      - 5000:5000
+
+  backend:
+    image: backend_example
+    environment:
+      - DB_USERNAME=tree
+      - DB_PASSWORD=password
+      - DB_NAME=tree
+      - DB_HOST=db
+      - REDIS=redis_store
+      - REDIS_PORT=6379
+    ports:
+      - 8000:8000
+    depends_on:
+      - db
+
+  redis_store:
+    image: 'redis'
+
+  db:
+    image: postgres
+    restart: unless-stopped
+    environment:
+      - POSTGRES_PASSWORD=password
+      - POSTGRES_USER=tree
+    container_name: postgres_db
+    volumes:
+      - postgres_database:/var/lib/postgresql/data
+
+  proxy: 
+    image: jwilder/nginx-proxy 
+    volumes: 
+      - /var/run/docker.sock:/tmp/docker.sock:ro 
+      - /home/urohit011/dwd_moocfi/Part 2/2.8/nginx.conf:/etc/nginx/nginx.conf
+    ports: 
+      - 80:80
+    depends_on: 
+      - backend
+      - frontend
+
+volumes:
+  postgres_database:

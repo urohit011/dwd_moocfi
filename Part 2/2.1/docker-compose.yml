@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+
+  first-volume:
+    image: devopsdockeruh/first_volume_exercise
+    build: .
+    volumes:
+      - /home/urohit011/docker_moocfi/Part 2/2.1/logs.txt/logs.txt:/usr/app/logs.txt
+    container_name: first_vol

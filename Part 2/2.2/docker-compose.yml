@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+
+  port-exercis:
+    image: devopsdockeruh/ports_exercise
+    ports:
+      - 8765:80

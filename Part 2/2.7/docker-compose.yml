@@ -1,0 +1,25 @@
+version: '3.5'
+
+services:
+  ml_frontend:
+    image: ml_frontend
+    ports:
+      - 3000:3000
+
+  ml_backend:
+    image: ml_backend
+    ports:
+      - 5000:5000
+    volumes: 
+      - shared_content:/src/model
+    depends_on: 
+      - ml_training
+
+  ml_training:
+    image: ml_training
+    volumes:
+      - shared_content:/src/model
+      - /home/urohit011/imgs:/src/imgs
+
+volumes: 
+  shared_content:

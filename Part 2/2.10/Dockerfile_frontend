@@ -1,0 +1,10 @@
+FROM node
+
+WORKDIR /frontend_example_docker
+COPY . .
+
+RUN npm install
+ENV API_URL=http://localhost/api
+
+EXPOSE 5000
+CMD ["npm", "start"]
