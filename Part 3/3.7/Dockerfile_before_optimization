@@ -1,0 +1,11 @@
+FROM python
+
+WORKDIR /flask_blog
+
+COPY . .
+
+RUN pip3 install flask flask_login flask_wtf flask_bcrypt flask_sqlalchemy Pillow email_validator
+
+EXPOSE 5000
+
+CMD [ "python3", "run.py" ]
