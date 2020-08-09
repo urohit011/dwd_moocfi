@@ -1,0 +1,15 @@
+FROM node:alpine
+
+ENV FRONT_URL=http://localhost:5000
+EXPOSE 8000
+
+WORKDIR /backend
+COPY . .
+
+RUN npm install && \
+    rm -rf /var/lib/apt/lists/* && \
+    adduser -D backend_app && chown -R backend_app: /backend
+
+USER backend_app
+
+CMD ["npm", "start"]

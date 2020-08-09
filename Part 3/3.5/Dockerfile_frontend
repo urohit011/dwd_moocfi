@@ -1,0 +1,14 @@
+FROM node:alpine
+
+ENV API_URL=http://localhost:8000
+WORKDIR /frontend
+COPY . .
+
+RUN npm install && \
+    rm -rf /var/lib/apt/lists/* && \
+    adduser -D frontend_app && chown -R frontend_app: /frontend
+
+USER frontend_app
+
+EXPOSE 5000
+CMD ["npm", "start"]

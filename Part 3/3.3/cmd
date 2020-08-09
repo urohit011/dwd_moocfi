@@ -1,0 +1,1 @@
+docker run --rm --name builder -v /var/run/docker.sock:/var/run/docker.sock -it builder <<repo_link>>

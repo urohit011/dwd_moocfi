@@ -1,0 +1,7 @@
+Before Using alpine:
+frontend_example3_1                    latest              8e2b0640bc99        21 minutes ago      444MB
+
+
+After Using alpine:
+frontend_example_alpine                latest              9be4af48c20b        5 minutes ago       336MB
+

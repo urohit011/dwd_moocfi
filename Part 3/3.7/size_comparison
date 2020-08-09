@@ -1,0 +1,7 @@
+Before Optimization:
+flaskblog                              latest              7f98523eeb87        4 days ago           921MB
+
+
+After Optimization :(
+flaskblog                              latest              48535eed4fa8        About a minute ago   926MB
+

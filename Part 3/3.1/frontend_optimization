@@ -1,0 +1,5 @@
+Before Optimization:
+frontend_example                       latest              85c0f03dc652        2 days ago          518MB
+
+After Optimization:
+frontend_example3_1                    latest              8e2b0640bc99        3 minutes ago       444MB

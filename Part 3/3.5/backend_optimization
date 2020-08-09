@@ -1,0 +1,6 @@
+Before Using alpine
+backend_example3_1                     latest              250ca8e7051c        13 minutes ago      266MB
+
+
+After using alpine
+backend_example_alpine                 latest              a1ea4861461c        9 minutes ago       154MB

@@ -1,0 +1,5 @@
+Before Optimization:
+backend                        latest              fe576e426927        3 days ago           339MB
+
+After Optimization:
+backend                     latest              250ca8e7051c        5 minutes ago        266MB
